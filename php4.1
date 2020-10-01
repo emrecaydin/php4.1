@@ -1,0 +1,12 @@
+<?php
+
+$films= [
+    "Les aventuriers de l'arche perdue"=>1981,
+    "Indiana Jones et le temple maudit"=>1984,
+    "Indiana Jones et la dernière croisade"=>1989,
+];
+asort ($films);
+foreach($films as $movie=> $dates){
+    echo($dates ." - " . $movie . "\n");
+}
+?>
